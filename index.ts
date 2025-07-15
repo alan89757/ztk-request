@@ -45,7 +45,7 @@ const createAxiosInstance = (baseURL: string) => {
   );
 };
 
-export const request = <T = any>(
+const request = <T = any>(
   config: AxiosRequestConfig,
   baseURL: string,
   options?: any,
@@ -75,6 +75,6 @@ export const request = <T = any>(
   });
 }
 
-module.exports = {
+export {
   request,
 };
