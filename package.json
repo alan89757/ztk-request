@@ -1,32 +1,35 @@
 {
-  "name": "ztk-request",
-  "version": "1.0.1",
-  "description": "公共请求",
-  "main": "index.js",
-  "scripts": {
-      "test": "jest"
-  },
-  "keywords": [
-      "string",
-      "utils",
-      "camelcase",
-      "capitalize",
-      "truncate"
-  ],
-  "author": "Your Name",
-  "license": "MIT",
-  "devDependencies": {
-      "jest": "^29.7.0"
-  },
-  "files": [
-      "index.js"
-  ],
-  "repository": {
-      "type": "git",
-      "url": "https://github.com/alan89757/ztk-request.git"
-  },
-  "bugs": {
-    "url": "https://github.com/alan89757/ztk-request/issues"
-  },
-  "homepage": "https://github.com/alan89757/ztk-request#readme"
-}    
+    "name": "ztk-request",
+    "version": "1.0.5",
+    "description": "公共请求",
+    "main": "index.ts",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [
+        "string",
+        "utils",
+        "camelcase",
+        "capitalize",
+        "truncate"
+    ],
+    "author": "Alan",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    },
+    "files": [
+        "index.ts"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alan89757/ztk-request.git"
+    },
+    "bugs": {
+        "url": "https://github.com/alan89757/ztk-request/issues"
+    },
+    "homepage": "https://github.com/alan89757/ztk-request#readme",
+    "dependencies": {
+        "axios": "1.6.2"
+    }
+}
