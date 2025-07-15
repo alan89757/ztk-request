@@ -1,0 +1,23 @@
+{
+  "name": "ztk-request",
+  "version": "1.0.0",
+  "description": "公共请求",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alan89757/ztk-request.git"
+  },
+  "keywords": [
+    "request",
+    "common"
+  ],
+  "author": "Alan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alan89757/ztk-request/issues"
+  },
+  "homepage": "https://github.com/alan89757/ztk-request#readme"
+}
