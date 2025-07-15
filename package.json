@@ -1,6 +1,6 @@
 {
     "name": "ztk-request",
-    "version": "1.0.5",
+    "version": "1.0.8",
     "description": "公共请求",
     "main": "index.ts",
     "scripts": {
@@ -19,7 +19,11 @@
         "jest": "^29.7.0"
     },
     "files": [
-        "index.ts"
+        "index.ts",
+        "helper.ts",
+        "util.ts",
+        "types/*",
+        "config/*"
     ],
     "repository": {
         "type": "git",
